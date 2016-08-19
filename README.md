@@ -7,7 +7,7 @@
 ### Please check out my work on gh-pages: https://d34n5.github.io/ping-pong
 
 ## Description & Technologies Used
-This webpage takes a user-provided integer and returns a range of numbers from 1 to the provided number, but with the following exceptions: Numbers divisible by 3 are replaced with pings, numbers divisible by 5 are replaced with pongs, and numbers divisible by 15 are replaced with ping-pong.  Project also provides me an opportunity to practice for loops and conditional statements in Javascript.
+This webpage takes a user-provided integer and returns a range of numbers from 1 to the provided number, but with the following exceptions: Numbers divisible by 3 are replaced with pings, numbers divisible by 5 are replaced with pongs, and numbers divisible by 15 are replaced with pingpong.  Project also provides me an opportunity to practice for loops and conditional statements in Javascript.
 
 ## Specifications
 1. Take integer from user

@@ -1,10 +1,10 @@
 
-
-
+// I realize something should exist here, and for a long time I considered putting my conditional statements up here  -  but since they append results to the user's display I kept them on the user side -  Perhaps I need clarification here...
 
 //----Business Logic above--^^-----
 
 // ----User interface logic below-----
+
 $(document).ready(function() {
   $("form").submit(function(event) {
     event.preventDefault();
@@ -25,7 +25,7 @@ $(document).ready(function() {
     }
     if (i > 50) {
       $("#list").prepend(
-        '<img src="http://www.reactiongifs.com/r/2013/10/tim-and-eric-mind-blown.gif" alt="mind blown">'
+        '<img src="https://media.giphy.com/media/OK27wINdQS5YQ/giphy.gif" alt="mind blown">'
       );
     }
   });
