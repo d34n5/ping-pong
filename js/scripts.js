@@ -1,18 +1,20 @@
 
 
+
+
 //----Business Logic above--^^-----
 
 // ----User interface logic below-----
 
 $(document).ready(function(){
   $("form").submit(function(event){
+    // $("#input").click(function(){
+    //     $("ul").remove();
+    // });
 
+    var inputNumber = $('#input-number').val()
 
-
-    var num = $('#input-number').val()
-
-
-    for (i = 1; i <= num; i++) {
+      for (i = 1; i <= inputNumber; i++) {
       if (i % 15 === 0) {
         $('#list').append('<li>'+"pingpong"+'</li>');}
       else if (i % 3 === 0) {
@@ -21,9 +23,10 @@ $(document).ready(function(){
         $('#list').append('<li>'+"pong"+'</li>');}
       else{
         $('#list').append('<li>'+i+'</li>');}
-    };
+      };
 
-  event.preventDefault();
+        event.preventDefault();
+
 
   });
 });
