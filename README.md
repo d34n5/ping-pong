@@ -33,7 +33,7 @@ This webpage takes a user-provided integer and returns a range of numbers from 1
  - Ex. Out: []
 8. Return a special .gif if user inputs a number greater than 50.
  - Ex. In [51]
- - Ex. Out [<mind blown img>]
+ - Ex. Out [mind blown image]
 
 ## Installation & Set-Up
 1. Clone the repository: https://github.com/d34n5/ping-pong
