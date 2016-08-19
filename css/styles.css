@@ -1,7 +1,28 @@
-.header {
-  background-color: #F4DEB5
+h1 {
+  background-color: #F4DEB5;
+  text-align: center;
+  height: 20vh;
+  padding: 5vw;
 }
 
-form {
-  background-color: #E6E6E6
+.col-sm-9 {
+  background-color: #E6E6E6;
+  min-height: 700px;
+}
+
+.col-sm-3 {
+  min-height: 700px;
+  background-color: #90BA92;
+}
+
+body {
+  border: 5px solid black;
+}
+
+h4 {
+  color: #F4DEB5;
+}
+
+h5 {
+  color: white;
 }
