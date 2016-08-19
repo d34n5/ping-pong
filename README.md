@@ -28,6 +28,7 @@ This webpage takes a user-provided integer and returns a range of numbers from 1
 6. Return full range of numbers to the user
 - Ex. In: [1,2,ping,4,pong,ping,7,8,ping,pong,11,ping,13,14,pingpong,16]
 - Ex. Out: [1,2,ping,4,pong,ping,7,8,ping,pong,11,ping,13,14,pingpong,16]
+7. Clear results each time a new number is entered.
 
 
 ## Installation & Set-Up
