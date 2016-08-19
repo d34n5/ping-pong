@@ -8,9 +8,13 @@
 
 $(document).ready(function(){
   $("form").submit(function(event){
-    // $("#input").click(function(){
-    //     $("ul").remove();
-    // });
+      event.preventDefault();
+    $("#input").click(function(){
+      $("#list").empty();
+      
+    });
+
+
 
     var inputNumber = $('#input-number').val()
 
@@ -25,7 +29,7 @@ $(document).ready(function(){
         $('#list').append('<li>'+i+'</li>');}
       };
 
-        event.preventDefault();
+
 
 
   });
