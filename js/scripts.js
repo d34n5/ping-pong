@@ -16,7 +16,7 @@ $(document).ready(function(){
 
     for (i = 1; i <= num; i++) {
       if (i % 15 === 0) {
-        $('#list').append('<li>'+"pingpopng"+'</li>');}
+        $('#list').append('<li>'+"pingpong"+'</li>');}
       else if (i % 3 === 0) {
         $('#list').append('<li>'+"ping"+'</li>');}
       else if (i % 5 === 0) {
