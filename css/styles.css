@@ -1,7 +1,9 @@
-
 h1 {
   background-color: #F4DEB5;
   text-align: center;
+  font-family: cursive;
+  font-size: 5em;
+  color: purple;
   height: 20vh;
   padding: 5vw;
 }

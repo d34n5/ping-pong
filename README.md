@@ -14,22 +14,26 @@ This webpage takes a user-provided integer and returns a range of numbers from 1
  - Ex. In: 2
  - Ex. Out: 2
 2. Count Up to provided number
-- Ex. In: 2
-- Ex. Out: [1,2]
+ - Ex. In: 2
+ - Ex. Out: [1,2]
 3. Remove numbers divisible by 3 and replace with ping
-- Ex. In: [1,2,3,4,5]
-- Ex. Out: [1,2,ping,4,5]
+ - Ex. In: [1,2,3,4,5]
+ - Ex. Out: [1,2,ping,4,5]
 4. Remove numbers divisible by 5 and replace with pong
-- Ex. In: [1,2,ping,4,5]
-- Ex. Out: [1,2,ping,4,pong]
+ - Ex. In: [1,2,ping,4,5]
+ - Ex. Out: [1,2,ping,4,pong]
 5. Remove numbers divisible by 15 and replace with pingpong
-- Ex. In: [1,2,ping,4,pong,ping,7,8,ping,pong,11,ping,13,14,pong,16]
-- Ex. Out: [1,2,ping,4,pong,ping,7,8,ping,pong,11,ping,13,14,pingpong,16]
+ - Ex. In: [1,2,ping,4,pong,ping,7,8,ping,pong,11,ping,13,14,pong,16]
+ - Ex. Out: [1,2,ping,4,pong,ping,7,8,ping,pong,11,ping,13,14,pingpong,16]
 6. Return full range of numbers to the user
-- Ex. In: [1,2,ping,4,pong,ping,7,8,ping,pong,11,ping,13,14,pingpong,16]
-- Ex. Out: [1,2,ping,4,pong,ping,7,8,ping,pong,11,ping,13,14,pingpong,16]
+ - Ex. In: [1,2,ping,4,pong,ping,7,8,ping,pong,11,ping,13,14,pingpong,16]
+ - Ex. Out: [1,2,ping,4,pong,ping,7,8,ping,pong,11,ping,13,14,pingpong,16]
 7. Clear results each time a new number is entered.
-
+ - Ex. In: [1,2,3,4]
+ - Ex. Out: []
+8. Return a special .gif if user inputs a number greater than 50.
+ - Ex. In [51]
+ - Ex. Out [<mind blown img>]
 
 ## Installation & Set-Up
 1. Clone the repository: https://github.com/d34n5/ping-pong
